@@ -27,32 +27,28 @@
 
         <hr>
 
-        <section class="projeto-card">
+        <section class="projeto-section">
             <h2>1. PortfólioHub (Este Site)</h2>
             <p>Desenvolvimento de um ecossistema digital para centralização de trajetória acadêmica e técnica. Originalmente planejado no Google Sites, o projeto foi totalmente portado para HTML5 e CSS3 semântico, estruturado com foco em design responsivo e versionado via Git.</p>
         </section>
 
-        <section class="projeto-card">
+        <section class="projeto-section" style="margin-top: 30px;">
             <h2>2. HTML Audio and Video Lab (freeCodeCamp)</h2>
-            <p>Projeto laboratorial focado na manipulação e integração de mídias nativas na web, utilizando elementos semânticos e atributos de controle avançados.</p>
+            <p>Projeto laboratorial focado na manipulação e integração de mídias nativas na web, utilizando elementos semânticos e integração de reprodutores de mídia externos.</p>
             
-            <div class="demo-codigo">
-                <h3>Taylor Swift</h3>
-                
-                <section class="midia-section">
-                    <h4>Taylor Swift - The Prophecy (Official Lyric Video)</h4>
-                    <video controls width="100%">
-                        <source src="https://cdn.freecodecamp.org/curriculo/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
-                        Seu navegador não suporta a tag de vídeo.
-                    </video>
-                </section>
+            <div class="media-container" style="margin-top: 20px;">
+                <h3>Taylor Swift - The Prophecy (Official Lyric Video)</h3>
+                <div style="position: relative; width: 100%; max-width: 560px; height: 0; padding-top: 315px; margin-top: 10px;">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_PsBoqNwYo4?si=kLgxtEJRp80k6FXH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; border-radius: 8px;"></iframe>
+                </div>
+            </div>
 
-                <section class="midia-section">
-                    <h4>The Prophecy (Áudio)</h4>
-                    <audio controls loop src="https://cdn.freecodecamp.org/curriculo/js-music-player/sailing-away.mp3">
-                        Seu navegador não suporta a tag de áudio.
-                    </audio>
-                </section>
+            <div class="media-container" style="margin-top: 40px;">
+                <h3>The Prophecy (Laboratório de Áudio)</h3>
+                <audio controls style="width: 100%; max-width: 400px; margin-top: 10px;">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
             </div>
         </section>
     </main>
